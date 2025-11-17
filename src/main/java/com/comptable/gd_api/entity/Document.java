@@ -22,8 +22,10 @@ public class Document {
 
     private String numeroPiece;
 
+    @Enumerated(value = EnumType.STRING)
     private Type type;
 
+    @Enumerated(value = EnumType.STRING)
     private StatutDocument statutDocument;
 
     private LocalDate dateValidation;
