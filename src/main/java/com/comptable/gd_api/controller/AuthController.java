@@ -17,10 +17,10 @@ import org.springframework.web.bind.annotation.RestController;
 public class AuthController {
 
     private final AuthService authService;
-
-    @PostMapping("/login")
-    public ResponseEntity<AuthResponseDTO> loginUser(@Valid @RequestBody AuthRequestDTO authRequestDTO) {
-        AuthResponseDTO response = authService.authenticate(authRequestDTO);
-        return ResponseEntity.ok(response);
-    }
+//
+//    @PostMapping("/login")
+//    public ResponseEntity<AuthResponseDTO> loginUser(@Valid @RequestBody AuthRequestDTO authRequestDTO) {
+//        AuthResponseDTO response = authService.authenticate(authRequestDTO);
+//        return ResponseEntity.ok(response);
+//    }
 }
